@@ -1,0 +1,177 @@
+title: Page
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: content
+        field:
+          collapse: false
+          always_show_set_button: false
+          previews: true
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+            - h1
+            - h4
+            - h5
+            - h6
+            - underline
+            - strikethrough
+            - small
+            - superscript
+            - subscript
+            - code
+            - codeblock
+            - horizontalrule
+          save_html: true
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          remove_empty_nodes: false
+          display: Content
+          type: bard
+          icon: bard
+          instructions: 'Page Body'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: content_old
+        field:
+          type: markdown
+          display: Content_old
+          localizable: true
+          instructions_position: above
+          listable: hidden
+          visibility: hidden
+          always_save: false
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+      -
+        handle: footer_logo
+        field:
+          mode: list
+          container: assets
+          folder: images/logo
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: 'Footer Logo'
+          type: assets
+          icon: assets
+          instructions: 'Select a Logo for the Footer'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: footer_logo_url
+        field:
+          display: 'Footer Logo Url'
+          type: link
+          icon: link
+          instructions: 'Logo Link'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: about_us_footer
+        field:
+          collapse: false
+          always_show_set_button: false
+          previews: true
+          buttons:
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - bold
+            - italic
+            - underline
+            - strikethrough
+            - small
+            - superscript
+            - subscript
+            - code
+            - codeblock
+            - horizontalrule
+          save_html: true
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          remove_empty_nodes: false
+          display: 'About Us Footer'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: author
+        field:
+          type: users
+          display: Author
+          default: current
+          localizable: true
+          max_items: 1
+      -
+        handle: template
+        field:
+          type: template
+          display: Template
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true

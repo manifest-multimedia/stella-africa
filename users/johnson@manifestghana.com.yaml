@@ -1,0 +1,8 @@
+name: 'Johnson Sebire'
+super: true
+id: d8d6d9a9-9f62-437f-b900-8b4d6afa3378
+password_hash: $2y$10$adMIwwtwRRRSX.ztJAZXn..kFsBQwst75fTUAUsuNjBc6kUDgZ8R6
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing
