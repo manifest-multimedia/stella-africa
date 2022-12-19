@@ -34,6 +34,7 @@
                 </div>
             </div>
         </section> 
+        {{-- @yield('content') --}}
         {{-- BATTERY ENERGY SOLUTIONS END --}}
     <x-footer />
 

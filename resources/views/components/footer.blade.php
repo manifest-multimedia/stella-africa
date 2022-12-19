@@ -6,32 +6,40 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="footer-item mt-30">
-                        {{-- <a href="#"><img src="assets/images/logo/logo.png" alt="footer-logo"></a> --}}
-                        <a href="{!! $page->footer_logo_url !!}"><img src="{!!$page->footer_logo[0]['url']!!}" alt="{!!$page->footer_logo[0]['alt']!!}"></a>
-                        {!! $page->about_us_footer !!}
                         
-                        {{-- <p>Technological innovation is a fine balance between pragmatism and vision. Pragmatically Stella uses state-of-the-art and proven storage technology combined with system design expert competence, a basis for clever new tailor-made solutions. Our visionary nature however pushes us to continuously keep our eye out for and vet new solutions for seamless integration into our portfolio</p> --}}
+                        @if(isset($page->footer_logo[0]))
+                            <a href="{!! $page->footer_logo_url !!}"><img src="{!!$page->footer_logo[0]['url']!!}" alt="{!!$page->footer_logo[0]['alt']!!}"></a>
+                            @else 
+                            <a href="#"><img src="assets/images/logo/logo.png" alt="footer-logo"></a>
+                        @endif
+
+                        @if(isset($page->about_us_footer[0]))
+                            {!! $page->about_us_footer !!}
+                        @else
+                             <p>Technological innovation is a fine balance between pragmatism and vision. Pragmatically Stella uses state-of-the-art and proven storage technology combined with system design expert competence, a basis for clever new tailor-made solutions. Our visionary nature however pushes us to continuously keep our eye out for and vet new solutions for seamless integration into our portfolio.</p> 
+                        @endif
+                        
 
                         <a href="#"><i class="fal fa-arrow-right"></i> Contact Us</a>
                     </div>
                 </div>
-                {{-- <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer-item-2 mt-30">
                         <div class="footer-title">
-                            <h3 class="title">Pages.</h3>
+                            <h3 class="title">Company</h3>
                         </div>
                         <ul>
                             <li>
                                 <ul>
-                                    <li><a href="#">-  Home</a></li>
-                                    <li><a href="#">-  About</a></li>
+                                    <li><a href="#">-  Vision & Mission </a></li>
+                                    <li><a href="#">-  Ernegy Solutions</a></li>
                                     <li><a href="#">-  Services</a></li>
+                                    <li><a href="#">-  Financing</a></li>
                                     <li><a href="#">-  Portfolio</a></li>
-                                    <li><a href="#">-  Contact</a></li>
-                                    <li><a href="#">-  Pricing</a></li>
+                                    <li><a href="#">-  Latest News</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <ul>
                                     <li><a href="#">-  Custor Orders</a></li>
                                     <li><a href="#">-  Privacy & Policy</a></li>
@@ -40,33 +48,33 @@
                                     <li><a href="#"><span>.</span></a></li>
                                     <li><a href="#"><span>.</span></a></li>
                                 </ul>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
-                </div> --}}
+                </div>
 
-                {{-- <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer-item-3 mt-30">
                         <div class="footer-title">
-                            <h3 class="title">Photo Showcase</h3>
+                            <h3 class="title">Product Showcase</h3>
                         </div>
                         <ul>
-                            <li><a href="#"><img src="assets/images/ins-1.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/ins-2.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/ins-3.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/images/solar_energy.png" alt="solar_ernergy_showcase"></a></li>
+                            <li><a href="#"><img src="assets/images/solar_energy_showcase.png" alt="solar_ernergy_showcase"></a></li>
+                            <li><a href="#"><img src="assets/images/battery_solutions_showcase.png" alt="battery_solutions_showcase"></a></li>
                         </ul>
                         <ul>
-                            <li><a href="#"><img src="assets/images/ins-4.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/ins-5.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/ins-6.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/images/battery_solutions_showcase.png" alt="battery_solutions_showcase"></a></li>
+                            <li><a href="#"><img src="assets/images/solar_energy.png" alt="solar_ernergy_showcase"></a></li>
+                            <li><a href="#"><img src="assets/images/solar_energy_showcase.png" alt="solar_ernergy_showcase"></a></li>
                         </ul>
                         <ul>
-                            <li><a href="#"><img src="assets/images/ins-7.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/ins-8.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/ins-9.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/images/solar_energy_showcase.png" alt="solar_ernergy_showcase"></a></li>
+                            <li><a href="#"><img src="assets/images/battery_solutions_showcase.png" alt="battery_solutions_showcase"></a></li>
+                            <li><a href="#"><img src="assets/images/solar_energy.png" alt="solar_ernergy_showcase"></a></li>
                         </ul>
                     </div>
-                </div> --}}
+                </div>
             </div>
         </div>
     </footer> 
