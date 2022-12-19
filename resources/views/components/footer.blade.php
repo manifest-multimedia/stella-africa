@@ -29,6 +29,7 @@
                             <h3 class="title">Company</h3>
                         </div>
                         <ul>
+                       
                             <li>
                                 <ul>
                                     <li><a href="#">-  Vision & Mission </a></li>
@@ -39,16 +40,11 @@
                                     <li><a href="#">-  Latest News</a></li>
                                 </ul>
                             </li>
-                            {{-- <li>
+                            <li>
                                 <ul>
-                                    <li><a href="#">-  Custor Orders</a></li>
-                                    <li><a href="#">-  Privacy & Policy</a></li>
-                                    <li><a href="#">-  Support</a></li>
-                                    <li><a href="#">-  Terms & Conditios</a></li>
-                                    <li><a href="#"><span>.</span></a></li>
-                                    <li><a href="#"><span>.</span></a></li>
+                                   {{-- Left Blank --}}
                                 </ul>
-                            </li> --}}
+                            </li>
                         </ul>
                     </div>
                 </div>
