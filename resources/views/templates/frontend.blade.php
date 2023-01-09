@@ -7,7 +7,7 @@
     
   {{--  BATTERY ENERGY SOLUTIONS START  --}}
       
-        <section class="about-us-area about-3-area">
+        <section class="about-us-area about-3-area" style="padding-top:150px !important; padding-bottom:150px !important">
             <div class="container">
                 <div class="row align-items-center position-relative">
                     <div class="col-lg-7">
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                     <div class="about-thumb">
-                        <img src="{{asset('assets/images/battery-energy-storage.jpg')}}" alt="">
+                        <img src="{{asset('assets/images/battery-energy-storage.jpg')}}" alt="battery-energy-storage">
                     </div>
                 </div>
             </div>
@@ -60,19 +60,32 @@
                                 + Financing Solutions</h4>
                                 <p>Reduce your reliance on the grid and save electricity costs. With solar PV you will have the possibility to go completely off-grid. This enables you to get energy cost savings while contributing to a greener future. Stella offers high quality and robust solar panels from carefully chosen and validated suppliers.</p>
                         </div>
-
-                        {{-- <div class="item mb-45 wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="100ms">
-                            <h5 class="title">Create Your Account</h5>
-                            <p>Reduce your reliance on the grid and save electricity costs. With solar PV you will have the possibility to go completely off-grid. This enables you to get energy cost savings while contributing to a greener future. Stella offers high quality and robust solar panels from carefully chosen and validated suppliers.</p>
-                            <span>01</span>
-                        </div> --}}
+                       
+                        
                         
                     </div>
+                    <div class="about-us-area pt-30">
+    
+                            <div class="about-content" style="float:left !important">
+                                <div class="about-info wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                    <h5 class="title">2,600 kWp</h5>
+                                    <span>Storage Capacity Installed!</span>
+                                    <img src="{{asset('assets/images/icons/solar-energy.png')}}" alt="energy" style="width=70px; height:70px">
+                                </div>
+                            </div>
+                       
+                    </div>
                 </div>
+                
             </div>
         </div>
     </section> 
    
+
+       
+                
+
+
     <!--====== PROCESS 3 PART ENDS ======-->
 
 
@@ -130,10 +143,10 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-lg-6">
-                <div class="become-member-items-1 bg_cover pt-150 pb-150 d-flex align-items-center" style="background-image: url(assets/images/become-bg-1.jpg);">
+                <div class="become-member-items-1 bg_cover pt-150 pb-150 d-flex align-items-center" style="/* background-image: url(assets/images/become-bg-1.jpg); *\">
                     <div class="become-member-content text-center">
                         <span>Find Your Place</span>
-                        <h2 class="title">Ready to experience high quality renewable energy solutions?</h2>
+                        <h2 class="title">Ready to experience high quality and affordable renewable energy solutions?</h2>
                         <ul>
                             <li><a class="main-btn" href="#">Speak to Us</a></li>
                             <li><a class="main-btn main-btn-2" href="#">Visit Us</a></li>
@@ -142,7 +155,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="become-member-items-2 d-flex justify-content-center align-items-center bg_cover pt-150 pb-150" style="background-image: url(assets/images/become-bg-2.jpg);">
+                <div class="become-member-items-2 d-flex justify-content-center align-items-center bg_cover pt-150 pb-150" style="/* background-image: url(assets/images/become-bg-2.jpg); *\">
                     <div class="become-member-content text-center">
                         <span>Subscribe</span>
                         <h2 class="title">Get Newsletter</h2>
