@@ -55,19 +55,130 @@
                             <h3 class="title">Product Showcase</h3>
                         </div>
                         <ul>
-                            <li><a href="#"><img src="assets/images/solar_energy.png" alt="solar_ernergy_showcase"></a></li>
-                            <li><a href="#"><img src="assets/images/solar_energy_showcase.png" alt="solar_ernergy_showcase"></a></li>
-                            <li><a href="#"><img src="assets/images/battery_solutions_showcase.png" alt="battery_solutions_showcase"></a></li>
+                            <li>
+                                <div class="gallery-area">
+
+                                    <div class="gallery-item">
+                                        <img src="assets/images/solar_energy.png" alt="battery_solutions_showcase">
+                                        <div class="gallery-overlay">
+    
+                                            <a class="image-popup" href="assets/images/solar_energy.png"><i class="fal fa-expand"></i></a>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                
+                                <div class="gallery-area">
+
+                                    <div class="gallery-item">
+                                        <img src="assets/images/solar_energy_showcase.png" alt="battery_solutions_showcase">
+                                        <div class="gallery-overlay">
+    
+                                            <a class="image-popup" href="assets/images/solar_energy_showcase.png"><i class="fal fa-expand"></i></a>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                
+                                <div class="gallery-area">
+
+                                    <div class="gallery-item">
+                                        <img src="assets/images/battery_solutions_showcase.png" alt="battery_solutions_showcase">
+                                        <div class="gallery-overlay">
+    
+                                            <a class="image-popup" href="assets/images/battery_solutions_showcase.png"><i class="fal fa-expand"></i></a>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                         <ul>
-                            <li><a href="#"><img src="assets/images/battery_solutions_showcase.png" alt="battery_solutions_showcase"></a></li>
-                            <li><a href="#"><img src="assets/images/solar_energy.png" alt="solar_ernergy_showcase"></a></li>
-                            <li><a href="#"><img src="assets/images/solar_energy_showcase.png" alt="solar_ernergy_showcase"></a></li>
+                            <li>
+                                <div class="gallery-area">
+
+                                    <div class="gallery-item">
+                                        <img src="assets/images/battery_solutions_showcase.png" alt="battery_solutions_showcase">
+                                        <div class="gallery-overlay">
+    
+                                            <a class="image-popup" href="assets/images/battery_solutions_showcase.png"><i class="fal fa-expand"></i></a>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="gallery-area">
+
+                                    <div class="gallery-item">
+                                        <img src="assets/images/solar_energy.png" alt="battery_solutions_showcase">
+                                        <div class="gallery-overlay">
+    
+                                            <a class="image-popup" href="assets/images/solar_energy.png"><i class="fal fa-expand"></i></a>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="gallery-area">
+
+                                    <div class="gallery-item">
+                                        <img src="assets/images/solar_energy_showcase.png" alt="battery_solutions_showcase">
+                                        <div class="gallery-overlay">
+    
+                                            <a class="image-popup" href="assets/images/solar_energy_showcase.png"><i class="fal fa-expand"></i></a>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                         <ul>
-                            <li><a href="#"><img src="assets/images/solar_energy_showcase.png" alt="solar_ernergy_showcase"></a></li>
-                            <li><a href="#"><img src="assets/images/battery_solutions_showcase.png" alt="battery_solutions_showcase"></a></li>
-                            <li><a href="#"><img src="assets/images/solar_energy.png" alt="solar_ernergy_showcase"></a></li>
+                            <li>
+                                <div class="gallery-area">
+
+                                    <div class="gallery-item">
+                                        <img src="assets/images/solar_energy_showcase.png" alt="battery_solutions_showcase">
+                                        <div class="gallery-overlay">
+    
+                                            <a class="image-popup" href="assets/images/solar_energy_showcase.png"><i class="fal fa-expand"></i></a>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="gallery-area">
+
+                                    <div class="gallery-item">
+                                        <img src="assets/images/battery_solutions_showcase.png" alt="battery_solutions_showcase">
+                                        <div class="gallery-overlay">
+    
+                                            <a class="image-popup" href="assets/images/battery_solutions_showcase.png"><i class="fal fa-expand"></i></a>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+
+                                <div class="gallery-area">
+
+                                    <div class="gallery-item">
+                                        <img src="assets/images/solar_energy.png" alt="battery_solutions_showcase">
+                                        <div class="gallery-overlay">
+    
+                                            <a class="image-popup" href="assets/images/solar_energy.png"><i class="fal fa-expand"></i></a>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
