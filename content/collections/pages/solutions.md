@@ -1,9 +1,9 @@
 ---
-id: bbcd097c-d844-405c-b022-e8a28bfde9f7
+id: c7c47bdc-a297-47e0-8e7a-dc222071735c
 blueprint: page
-title: 'About Us'
+title: Solutions
 author: d8d6d9a9-9f62-437f-b900-8b4d6afa3378
-template: templates/about
 updated_by: d8d6d9a9-9f62-437f-b900-8b4d6afa3378
-updated_at: 1673296898
+updated_at: 1673326282
+template: templates/solutions
 ---

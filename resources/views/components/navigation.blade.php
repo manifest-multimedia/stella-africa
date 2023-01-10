@@ -11,33 +11,25 @@
 
         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="{{'/'}}">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Solutions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">News</a>
-                    {{-- <ul class="sub-menu">
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="news-details.html">News Details</a></li>
-                    </ul> <!-- sub menu --> --}}
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+                @foreach (tag('nav:main_menu') as $navItem)
+                    <li class="nav-item">
+                        <a class="nav-link {{$navItem['is_current'] ? 'active' : ''}}" href="{{$navItem['url']}}">{{$navItem['title']}}</a>
+                        @if($navItem['children'])
+                       
+                        <ul class="sub-menu">
+                            @foreach ($navItem['children'] as $subItem)
+                                <li><a href="{{$subItem['url']}}"> {{$subItem['title']}}</a></li> 
+                            @endforeach
+                        </ul>
+                        @endif
+                    </li>
+                @endforeach
+              
             </ul>
         </div> <!-- navbar collapse -->
         <x-language-switcher />
         <div class="navbar-social ">
-            <a class="main-btn" href="#">GET IN TOUCH</a>
+            <a class="main-btn" href="/contact-us">GET IN TOUCH</a>
            
         </div>
 

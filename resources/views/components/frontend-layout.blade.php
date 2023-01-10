@@ -1,5 +1,5 @@
 <!doctype html>
-@props(['context'])
+    @props(['context'])
 <html lang="{{ 'en'}}">
 
 <head>
@@ -58,13 +58,11 @@
         }
         
     </style>
-    
-   
-  {{$slot}}
-   
 
+    <x-header />
    
+     {{$slot}}
 
-    
+      <x-footer />
 
 </html>

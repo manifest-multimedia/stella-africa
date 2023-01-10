@@ -11,14 +11,14 @@ sections:
           validate:
             - required
       -
-        handle: content_old
+        handle: content
         field:
           type: markdown
-          display: Content_old
+          display: Content
           localizable: true
           instructions_position: above
           listable: hidden
-          visibility: hidden
+          visibility: visible
           always_save: false
           restrict: false
           automatic_line_breaks: true
