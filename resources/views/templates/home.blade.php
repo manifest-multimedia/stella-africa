@@ -139,9 +139,9 @@
     <div class="row no-gutters">
         <div class="col-lg-6">
             <div class="become-member-items-1 bg_cover pt-150 pb-150 d-flex align-items-center" style="/* background-image: url(assets/images/become-bg-1.jpg); *\">
-                <div class="become-member-content text-center">
+                <div class="become-member-content text-center pl-5 pr-5">
                     <span>Start Saving on Energy Costs!</span>
-                    <h2 class="title">Ready to experience high quality and affordable renewable energy solutions?</h2>
+                    <h2 class="title">Ready to experience quality & affordable energy solutions?</h2>
                     <ul>
                         <li><a class="main-btn" href="#">Speak to Us</a></li>
                         <li><a class="main-btn main-btn-2" href="#">Visit Us</a></li>

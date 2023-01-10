@@ -2,5 +2,5 @@
 
     <x-page-title :title="$page->title" />
 
-
+        <x-cta-phone /> 
 </x-frontend-layout>

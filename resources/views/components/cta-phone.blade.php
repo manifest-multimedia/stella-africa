@@ -1,7 +1,7 @@
 <!--====== CALL PART START ======-->
 <style>
 .call-area .call-item::before {
-    background-image:url("assets/images/battery-energy-storage.jpg") !important;
+    background-image:url("assets/images/cta-bg.png") !important;
 }
 </style> 
 <section class="call-area">
