@@ -109,9 +109,76 @@
                     </div> 
                 </div>
             </div>
-            <div class="row justify-content-center">
-               
+            
+            <div class="team-page-area row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="team-item mt-30">
+                        <img src="assets/images/team-item-1.jpg" alt="team">
+                        <div class="team-overlay d-flex align-items-center pl-45">
+                            <div class="item">
+                                <h5 class="title">Ulrika Tornerefelt</h5>
+                                <span>Founder and Group CEO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="team-item mt-30">
+                        <img src="assets/images/team-item-2.jpg" alt="team">
+                        <div class="team-overlay d-flex align-items-center pl-45">
+                            <div class="item">
+                                <h5 class="title">Francis Asante</h5>
+                                <span>CEO and Partner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="team-item mt-30">
+                        <img src="assets/images/team-item-3.jpg" alt="team">
+                        <div class="team-overlay d-flex align-items-center pl-45">
+                            <div class="item">
+                                <h5 class="title">Jonas Jonsson</h5>
+                                <span>Co-founder, Investor Relations & Partner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="team-item mt-30">
+                        <img src="assets/images/team-item-4.jpg" alt="team">
+                        <div class="team-overlay d-flex align-items-center pl-45">
+                            <div class="item">
+                                <h5 class="title">Nickie Akosa</h5>
+                                <span>Business Develoment and Partner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="team-item mt-30">
+                        <img src="assets/images/team-item-5.jpg" alt="team">
+                        <div class="team-overlay d-flex align-items-center pl-45">
+                            <div class="item">
+                                <h5 class="title">Jinkar R. Ronald</h5>
+                                <span>Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="team-item mt-30">
+                        <img src="assets/images/team-item-6.jpg" alt="team">
+                        <div class="team-overlay d-flex align-items-center pl-45">
+                            <div class="item">
+                                <h5 class="title">Robert Yawson</h5>
+                                <span>Head of Technology</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+           
         </div>
     </section> 
    

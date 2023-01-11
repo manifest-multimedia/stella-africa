@@ -25,7 +25,7 @@
                 <div class="col-lg-8">
                     <div class="blog-standard" >
                         <div class="single-blog-standard mt-30" >
-                            @isset($featured_image)
+                            @isset($featured_image['url'])
                             <div class="blog-standard-thumb">
                                 {{-- @dd($featured_image) --}}
                                 <img src="{{$featured_image['url']}}" alt="blog">
@@ -37,21 +37,24 @@
                                 <ul>
                                     {{-- <li><i class="fal fa-eye"></i> 232 Views</li> --}}
                                     {{-- <li><i class="fal fa-comments"></i> 35 Comments</li> --}}
-                                    <li><i class="fal fa-calendar-alt"></i> {{$updated_at}} </li>
+                                    <li><i class="fal fa-calendar-alt"></i> {{$date}} </li>
                                 </ul>
                                 <p>{!! Statamic::modify($content)->safeTruncate([250, '...']) !!}</p>
                                 <div class="blog-flex">
                                     
                                     {{-- @dd($entry) --}}
 
+                                    {{--
+                                        
                                     @isset($updated_by['name'])
                                         <div class="blog-left" style="padding-left:0 !important">
                                             <p><span>Author:</span> {{$updated_by['name'] }}</p>
-                                            {{-- <img src="assets/images/user.png" alt=""> --}}
+                                          
                                         </div>
-                                    @endisset
+                                    @endisset 
+                                    --}}
                                     <div class="blog-right">
-                                        <a href="{{$url}}"><i class="fal fa-arrow-right"></i>Read More</a>
+                                        <a href="{{$entry['url']}}"><i class="fal fa-arrow-right"></i>Read More</a>
                                     </div>
                                 </div>
                             </div>

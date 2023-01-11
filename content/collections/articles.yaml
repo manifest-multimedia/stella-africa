@@ -1,8 +1,8 @@
 title: Articles
-template: templates/news
+template: templates/article
 layout: layout
 revisions: false
-route: '/news/{slug}'
+route: '/{slug}'
 date: true
 sort_dir: asc
 date_behavior:

@@ -42,6 +42,11 @@ sections:
             - anchor
             - image
             - table
+            - underline
+            - strikethrough
+            - code
+            - codeblock
+            - horizontalrule
           save_html: true
           toolbar_mode: fixed
           link_noopener: false
@@ -62,6 +67,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+          container: assets
       -
         handle: featured_image
         field:
@@ -86,4 +92,11 @@ sections:
         field:
           type: slug
           localizable: true
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+          validate:
+            - required
 title: Article
